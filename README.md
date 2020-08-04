@@ -18,6 +18,7 @@ eprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1002/path.5509},
 
 # Repo structure
 
-- `generative_models` contains the implementation of the progressive GAN used in this work. 
+- `generative_models` contains the implementation of the custom progressive GAN used in this study. 
+    - Based on the [Official TensorFlow implementation of the ICLR 2018 paper Progressive Growing of GANs for Improved Quality, Stability, and Variation](https://github.com/tkarras/progressive_growing_of_gans)
 
 - `classification` contains the implementation of our evaluation experiments for both OVCARE and TCGA dataset. 
